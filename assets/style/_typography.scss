@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+$font-weights: (
+  "regular": 300,
+  "medium": 500,
+  "semibold": 600,
+);
+
+h1 {
+  font-size: 3rem;
+  font-weight: map-get($font-weights, semibold);
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: map-get($font-weights, medium);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: map-get($font-weights, semibold);
+}
+
+h4 {
+  font-size: 1.3125rem;
+  font-weight: map-get($font-weights, regular);
+}
+
+h5 {
+  font-size: 1.125rem;
+}
